@@ -1,0 +1,70 @@
+body {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Shared styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+/* Banner */
+.banner-bg {
+    background-image: url('/assets/Hero-bg.png');
+    size: cover;
+}
+
+.banner {
+    font-family: "Azeret Mono", serif;
+    text-align: center;
+    gap: 24px;
+    /* top right bottom left */
+    padding: 26px 221px 45px 221px;
+}
+
+button {
+    font-family: "Azeret Mono", serif;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+}
+
+/* Why web dev */
+.why-dev {
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    text-align: center;
+}
+
+/* My inspiration */
+
+/* My Current Target */
+
+/* My Next Target */
+
+/* I need support */
+
+/* Footer */
