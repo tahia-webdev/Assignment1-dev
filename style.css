@@ -11,6 +11,10 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 p {
     font-weight: 400;
@@ -66,16 +70,16 @@ h3{
     padding: 80px 97px 80px 97px;
     background: rgba(13, 19, 33, 0.02);
     text-align: center;
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
 .i-will{
     display: flex;
     justify-content: space-between;
     text-align: left;
     align-items:start;
-    margin: 32px 0px;
     border-radius: 16px;
-    
-    padding: 20px 20px;
+    padding: 15px 15px;
 
 }
 .i-will-fl{
@@ -100,25 +104,128 @@ h3{
     text-align: center;
     
 }
-iframe{
-    padding: 32px;
+
+.video{
     border-radius: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
+    
 }
-/* My Current Target */
+iframe{
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    border-radius: 16px;  
+}
 
+
+
+/* My Current Target */
+.Ctarget{
+    text-align: center;
+    align-items: center;
+    gap: 48px;
+    margin: 111px 0px;
+}
+.inspo-heading, .ctarget-heading, .ntarget-heading, .support{
+    margin: 48px 0px;
+    text-align: center;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.cards{
+    display:flex;
+    gap: 24px;
+}
+.card{
+    text-align: left;
+    border-radius: 16px;
+    padding: 40px;
+    
+}
+
+.ahtml{
+    background: rgba(255, 76, 30, 0.05);
+}
+.bcss{
+    background: rgba(0, 76, 232, 0.05);
+}
+.cjavas{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-btn{
+    background: none;
+    padding: 0;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+}
 /* My Next Target */
+.target{
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+.ntarget-img{
+    padding: 24px;
+    margin: 15px;
+}
+
+/* heading setting is shared with ctarget-heading, button setting in ctarget button */
+
 
 /* I need support */
+.support{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/handshake.jpg');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: cover;
+    padding: 64px 48px 64px 48px;
+    color: white;
+    /* gap: 24px; */
+    
+    
+}
+.support p{
+    color: white;
+    
+}
+.support input[type="text"]{
+    border: none;
+    text-align: left;    
+    padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+    background-color: white;
+    height: 10px;
+    width: 548px;
+}
+.support button{
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    width: 120px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
 
 /* Footer */
 footer{
     display: flex;
     justify-content: space-between;
     background: rgba(13, 19, 33, 0.03);
-    gap: 32px;
+    /* gap: 32px; */
     align-items: center;
     padding: 32px 150px 32px 150px;
     font-size: 20px;
